@@ -36,9 +36,10 @@ public class TelaFConfiguracoes extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Tela F Configurações");
+        setTitle("Tela Configurações Freelancer");
         setMinimumSize(new java.awt.Dimension(1100, 700));
         setPreferredSize(new java.awt.Dimension(1100, 700));
+        setResizable(false);
         getContentPane().setLayout(null);
 
         jButton1.setText("SALVAR");

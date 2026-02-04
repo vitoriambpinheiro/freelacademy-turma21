@@ -16,21 +16,23 @@ public class TelaEDashboard extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Tela E Dashboard ");
+        setTitle("Tela Dashboard Empresa");
         setMinimumSize(new java.awt.Dimension(1100, 700));
+        setPreferredSize(new java.awt.Dimension(1100, 700));
+        setResizable(false);
         getContentPane().setLayout(null);
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Downloads\\Config 1 (6).png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Downloads\\Config (1).png")); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(940, 10, 50, 50);
+        jButton1.setBounds(970, 0, 50, 50);
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -38,21 +40,21 @@ public class TelaEDashboard extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(250, 10, 640, 40);
+        jTextField1.setBounds(270, 10, 640, 40);
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Downloads\\Perfil 1.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Downloads\\perfil (1).png")); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(1010, 10, 50, 50);
+        jButton2.setBounds(1030, 0, 50, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Downloads\\TelaDashboard.png")); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1100, 700);
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Documents\\NetBeansProjects\\FreelAcademy\\src\\main\\java\\src\\TelaDashboard.png")); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 0, 1100, 700);
 
         pack();
         setLocationRelativeTo(null);
@@ -98,7 +100,7 @@ public class TelaEDashboard extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }

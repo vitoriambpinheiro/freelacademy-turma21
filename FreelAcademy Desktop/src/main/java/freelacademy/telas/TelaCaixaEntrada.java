@@ -19,6 +19,7 @@ public class TelaCaixaEntrada extends javax.swing.JFrame {
         setTitle("Tela Caixa de Entrada");
         setMinimumSize(new java.awt.Dimension(450, 260));
         setPreferredSize(new java.awt.Dimension(450, 260));
+        setResizable(false);
         getContentPane().setLayout(null);
 
         jButton1.setText("OK");
@@ -30,11 +31,8 @@ public class TelaCaixaEntrada extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(160, 180, 120, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Downloads\\kk.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Marcos Tavares\\Documents\\NetBeansProjects\\FreelAcademy\\src\\main\\java\\src\\TelaCaixaEntrada.png")); // NOI18N
         jLabel2.setText("jLabel2");
-        jLabel2.setMaximumSize(new java.awt.Dimension(450, 260));
-        jLabel2.setMinimumSize(new java.awt.Dimension(450, 260));
-        jLabel2.setPreferredSize(new java.awt.Dimension(450, 260));
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 0, 450, 260);
 
